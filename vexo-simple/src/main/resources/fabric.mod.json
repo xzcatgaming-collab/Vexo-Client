@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "vexoclient",
+  "version": "${version}",
+  "name": "Vexo Client",
+  "description": "Simple client: HUD + Right Shift menu + logo.",
+  "authors": ["Vexo"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.vexo.VexoClient"] },
+  "mixins": ["vexoclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
